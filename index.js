@@ -12,6 +12,12 @@ const ff = document.querySelector(".ff");
 const back = document.querySelector(".back");
 const forw = document.querySelector(".forw");
 const forw1 = document.querySelector(".forw1");
+const stepUn = document.querySelector(".un");
+const stepDeux = document.querySelector(".deux");
+const stepTrois = document.querySelector(".trois");
+const stepAb = document.querySelector(".ab");
+const stepAv = document.querySelector(".av");
+const stepAd = document.querySelector(".ad");
 
 // faire revenir à la page 1
 
@@ -29,6 +35,46 @@ stepTwo.addEventListener("click", () => {
 stepTree.addEventListener("click", () =>{
     contain.style.display = "flex";
     container.style.display = "none";
+});
+
+stepUn.addEventListener("click", () =>{
+    container.style.display = "flex";
+    containe.style.display = "none";
+    contain.style.display = "none";
+});
+stepDeux.addEventListener("click", () => {
+    containe.style.display = "flex";
+    console.log("stepTwo");
+
+    container.style.display = "none";
+});
+
+// container1.style.display = "none";
+stepTrois.addEventListener("click", () =>{
+    contain.style.display = "flex";
+    container.style.display = "none";
+    containe.style.display = "none";
+});
+
+
+stepAb.addEventListener("click", () =>{
+    container.style.display = "flex";
+    containe.style.display = "none";
+    contain.style.display = "none";
+});
+stepAv.addEventListener("click", () => {
+    containe.style.display = "flex";
+    console.log("stepTwo");
+
+    container.style.display = "none";
+    contain.style.display = "none";
+});
+
+// container1.style.display = "none";
+stepAd.addEventListener("click", () =>{
+    contain.style.display = "flex";
+    container.style.display = "none";
+    containe.style.display = "none";
 });
 
 // btn.addEventListener("click", () =>{
