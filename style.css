@@ -16,7 +16,7 @@ form{
  
 
 
-form{
+.form{
     display: flex;
     justify-content: space-between;
     background-color: aqua;
@@ -294,7 +294,7 @@ input:active{
 
 
 @media screen and (max-width: 300px){
-    form{
+    .form{
         padding-left: 0;
         padding-right: 0;
         background-color: rgb(216, 142, 44);
